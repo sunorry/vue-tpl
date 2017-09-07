@@ -4,14 +4,12 @@ module.exports = {
         "es6": true
     },
     "extends": [
-      "eslint:recommended",
-      'plugin:vue/recommended'
+      "eslint:recommended"
     ],
     "parserOptions": {
         "sourceType": "module"
     },
     "rules": {
-        "vue/valid-v-if": "error",
         "indent": [
             "error",
             2
